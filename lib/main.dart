@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:food_app1/home/main_food_page.dart';
+import 'package:food_app1/pages/food/popular_food_datail.dart';
+
 import 'package:get/get.dart';
+
+import 'pages/home/main_food_page.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
 
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: main_food(),
+      home: popular_food_detail(),
 
     );
   }
